@@ -1,15 +1,16 @@
 /* Mermaid Lagoon color combination - Canva Palette */
 :root {
-    --primary-color: #145DA0; 
-    --secondary-color: #2E8BC0;
-    --third-color: #B1D4E0;
-    --background-color: #0C2D48;
-    --text-color: #B1D4E0;
-    --font-family: Arial, sans-serif;
+  --primary-color: #145DA0; 
+  --secondary-color: #2E8BC0;
+  --third-color: #B1D4E0;
+  --background-color: #0C2D48;
+  --text-color: white;
+  --font-family: Arial, sans-serif;
 }
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: var(--background-color);
     font-family: var(--font-family);
@@ -17,71 +18,183 @@ body {
     height: auto;
 }
 
+.regcont-01{
+  display: flex;
+  background-color: var(--background-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30vw;
+  font-size: 3vw;
+  padding-top: 1vw;
+}
+
+.maintitle{
+  border: solid var(--text-color) 0.5vw;
+  border-radius: 1vw;
+  padding: 1vw;
+}
+
+.regcont-02{
+  display: flex;
+  background-color: var(--background-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 5vw;
+  font-size: 2vw;
+  padding-bottom: 2vw;
+}
+
+/* .button-container {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.button-container button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-container button:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.1);
+} */
+
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 10px;
-    width: 100%;
-    height: 100%;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
 
-  .item{
-    display: flex;
-    border-radius: 10px;
-    transition: all 0.4s;
-  }
+.item{
+  display: flex;
+  border-radius: 10px;
+  /* transition: all 0.4s; */
+}
 
-  .item:hover{
-    transform: scale(1.01);
-  }
+/* .item:hover{
+  transform: scale(1.012);
+} */
   
-  .item-1 {
-    grid-column: span 1;
-    grid-row: span 1;
-    background-color: var(--primary-color);
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 400px;
-    /* font-size: 40px; */
-  }
+.item-01 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: var(--primary-color);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20vw;
+  font-size: 2vw;
+}
 
-  .circle{
-    height: 100px;
-    width: 100px;
-    background-color: var(--background-color);
-    border-radius: 50%;
-  }
+.item-02 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: var(--secondary-color);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 20vw;
+  font-size: 2vw;
+}
 
-  .item-2 {
-    grid-column: span 2;
-    grid-row: span 1;
-    background-color: var(--secondary-color);
-    align-items: center;
-    justify-content: center;
-  }
-  .item-3 {
-    grid-column: span 2;
-    grid-row: span 1;
-    background-color: var(--primary-color);
-    height: 200px;
-  }
-  .item-4 {
-    grid-column: span 1;
-    grid-row: span 1;
-    background-color: var(--secondary-color);
-  }
-  .item-5 {
-    grid-column: span 1;
-    grid-row: span 1;
-    background-color: var(--secondary-color);
-  }
-  .item-6 {
-    grid-column: span 2;
-    grid-row: span 1;
-    background-color: var(--primary-color);
-  }
+.item-03 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: var(--primary-color);
+  height: auto;
+}
+
+.item-04 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: var(--secondary-color);
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  font-size: 1.1vw;
+}
+
+.item-05 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: var(--primary-color);
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  font-size: 1.1vw;
+}
+
+.item-06 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: var(--secondary-color);
+  height: auto;
+}
+
+.item-07 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: var(--primary-color);
+  height: auto;
+}
+
+.item-08 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: var(--secondary-color);
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  font-size: 1.1vw;
+}
+
+.item-09 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: var(--primary-color);
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  font-size: 1.1vw;
+}
+
+.item-10 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: var(--secondary-color);
+  height: auto;
+}
 
 /* * {
     margin: 0;
