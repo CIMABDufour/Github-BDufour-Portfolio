@@ -81,7 +81,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: auto;
-  gap: 20px;
+  gap: 10px;
   width: 100%;
   height: 100%;
 }
@@ -100,11 +100,12 @@ body {
   grid-column: span 1;
   grid-row: span 1;
   background-color: var(--primary-color);
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 20vw;
-  font-size: 2vw;
+  justify-content: right;
+  text-align: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: auto;
+  font-size: 1vw;
 }
 
 .item-02 {
@@ -112,10 +113,7 @@ body {
   grid-row: span 1;
   background-color: var(--secondary-color);
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 20vw;
-  font-size: 2vw;
+  height: auto;
 }
 
 .item-03 {
@@ -130,8 +128,8 @@ body {
   grid-row: span 1;
   background-color: var(--secondary-color);
   height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   align-items: center;
   justify-content: left;
   text-align: left;
@@ -142,18 +140,19 @@ body {
   grid-column: span 1;
   grid-row: span 1;
   background-color: var(--primary-color);
-  padding-left: 20px;
-  padding-right: 20px;
-  align-items: center;
   justify-content: right;
   text-align: right;
-  font-size: 1.1vw;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: auto;
+  font-size: 1vw;
 }
 
 .item-06 {
   grid-column: span 2;
   grid-row: span 1;
   background-color: var(--secondary-color);
+  align-items: center;
   height: auto;
 }
 
@@ -168,6 +167,7 @@ body {
   grid-column: span 1;
   grid-row: span 1;
   background-color: var(--secondary-color);
+  height: auto;
   padding-left: 20px;
   padding-right: 20px;
   align-items: center;
@@ -180,21 +180,22 @@ body {
   grid-column: span 1;
   grid-row: span 1;
   background-color: var(--primary-color);
-  height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  align-items: center;
   justify-content: right;
   text-align: right;
-  font-size: 1.1vw;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: auto;
+  font-size: 1vw;
 }
 
 .item-10 {
   grid-column: span 2;
   grid-row: span 1;
   background-color: var(--secondary-color);
+  align-items: center;
   height: auto;
 }
+
 
 /* * {
     margin: 0;
