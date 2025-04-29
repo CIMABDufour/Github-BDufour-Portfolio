@@ -8,6 +8,14 @@
   --font-family: Arial, sans-serif;
 }
 
+.darkmode{
+  --primary-color: #222222; 
+  --secondary-color: #1DCD9F;
+  --third-color: #169976;
+  --background-color: #000000;
+  --text-color: white;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -195,7 +203,6 @@ body {
   align-items: center;
   height: auto;
 }
-
 
 /* * {
     margin: 0;
