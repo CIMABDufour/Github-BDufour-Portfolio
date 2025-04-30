@@ -1,22 +1,87 @@
+
+/* Ice Infinity color combination - Canva Palette */
+:root{
+  --primary-color:#b7cfdc;
+  --secdonary-color:#6aabd2;
+  --detail-color: #385e72;
+  --background-color:#d9e4ec;
+  --text-color: black;
+  --font-family: Arial, sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+  color: var(--text-color);
+  height: auto;
+}
+
+.topframe{
+  display: flex;
+  background-color: var(--background-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  padding-bottom: 5vw;
+}
+
+.section{
+  display: flex;
+  background-color: var(--background-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  padding-bottom: 5vw;
+}
+
+.textsection{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+}
+
+.profilimage{
+  display: flex;
+  background-color: var(--primary-color);
+  width: 20vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20vw;
+  height: 20vw;
+}
+
 /* Mermaid Lagoon color combination - Canva Palette */
-:root {
+/* :root {
   --primary-color: #145DA0; 
   --secondary-color: #2E8BC0;
   --third-color: #B1D4E0;
   --background-color: #0C2D48;
   --text-color: white;
   --font-family: Arial, sans-serif;
-}
+} */
 
-.darkmode{
+/* .darkmode{
   --primary-color: #222222; 
   --secondary-color: #1DCD9F;
   --third-color: #169976;
   --background-color: #000000;
   --text-color: white;
-}
+} */
 
-body {
+/* body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +119,7 @@ body {
   height: 5vw;
   font-size: 2vw;
   padding-bottom: 2vw;
-}
+} */
 
 /* .button-container {
   background-color: var(--background-color);
@@ -85,26 +150,26 @@ body {
   transform: scale(1.1);
 } */
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: auto;
   gap: 10px;
   width: 100%;
   height: 100%;
-}
+} */
 
-.item{
+/* .item{
   display: flex;
   border-radius: 10px;
   /* transition: all 0.4s; */
-}
+/*} */
 
 /* .item:hover{
   transform: scale(1.012);
 } */
   
-.item-01 {
+/* .item-01 {
   grid-column: span 1;
   grid-row: span 1;
   background-color: var(--primary-color);
@@ -202,7 +267,7 @@ body {
   background-color: var(--secondary-color);
   align-items: center;
   height: auto;
-}
+} */
 
 /* * {
     margin: 0;
