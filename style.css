@@ -99,6 +99,31 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.hd_section{
+  display: flex;
+  background-color: var(--background-color);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  transition: background 0.4s;
+  gap: 15px;
+}
+
+.hd_btn{
+  display: flex;
+  background-color: var(--primary-color);
+  border-color: var(--detail-color);
+  color: var(--text-color);
+  border-radius: 1vw;
+  width: 5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+}
+
 .section{
   display: flex;
   background-color: var(--background-color);
