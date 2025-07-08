@@ -149,6 +149,8 @@ body{
   border-radius: 1vw;
 }
 
+/* Site Projects Section*/
+
 .sct_pjt_txt_zone{
   font-family: var(--font-family);
   color: var(--text-color);
@@ -175,7 +177,5 @@ body{
   color: var(--text-color);
   transition: background 0.4s;
 }
-
-/* Site Projects Section*/
 
 /* Site Links Section*/
